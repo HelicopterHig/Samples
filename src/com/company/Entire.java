@@ -12,11 +12,11 @@ public class Entire {
         for (  ; a <= b; ++a) {
 
             m +=a ;
-           // System.out.println( m  );
+            System.out.println( m  );
 
            // a = ++a;
         }
-        System.out.println( m  );
+       // System.out.println( m  );
 
     }
 }
