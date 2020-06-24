@@ -9,7 +9,8 @@ public class Sqareof {
         Scanner sc = new Scanner(System.in);
         int a = 1;
         int b = sc.nextInt();
-        int m = 0;
+        int m = 1;
+       // int c = 1;
 
         /*while ( a <= b){
 
@@ -18,7 +19,7 @@ public class Sqareof {
         }*/
         for (; a <= b; a++) {
             //if ( a % 2 == 0){
-            m = a * a + m;
+            m = a * m ;
             //a++;
             // System.out.println( m );
             // }
