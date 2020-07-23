@@ -16,7 +16,7 @@ public class Sequence {
                 m = a;
                 ++i;
             }else if  ( a ==0){
-            System.out.println( i-1 );
+            System.out.println( i );
             break;
             }
         }
